@@ -1,4 +1,10 @@
 #!/bin/bash
+# I hate makefiles dude
+
+# 1. make arch-install-scripts (and install it)
+# 2. make and install the rest of our utilities
+# 3. make sfs and install it
+# 4. make iso
 cd upstream-iso
 
 # Build the ISO

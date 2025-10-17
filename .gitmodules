@@ -10,3 +10,6 @@
 [submodule "upstream-iso"]
 	path = upstream-iso
 	url = https://github.com/void-linux/void-mklive
+[submodule "arch-install-scripts"]
+	path = arch-install-scripts
+	url = https://gitlab.archlinux.org/archlinux/arch-install-scripts
