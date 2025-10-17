@@ -1,2 +1,2 @@
 #!/bin/bash
-exec git submodule update --remote --merge --recursive --init
+git submodule update --remote --merge --recursive --init
