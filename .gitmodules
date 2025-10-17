@@ -1,0 +1,9 @@
+[submodule "obsidianctl"]
+  path = obsidianctl
+  url = https://github.com/Obsidian-OS/obsidianctl
+[submodule "mkobsidiansfs"]
+  path = mkobsidiansfs
+  url = https://github.com/Obsidian-OS/mkobsidiansfs
+[submodule "void-mklive"]
+  path = upstream-iso
+  url = https://github.com/void-linux/void-mklive
