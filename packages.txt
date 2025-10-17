@@ -1,6 +1,5 @@
 NetworkManager
 alsa-utils
-amd-ucode
 avahi-daemon
 b43-fwcutter
 base-system
@@ -39,7 +38,6 @@ gpm
 grub
 hdparm
 hyperv
-intel-ucode
 irssi
 iw
 iwd

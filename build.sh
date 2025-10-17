@@ -1,6 +1,6 @@
 #!/bin/bash
 # I hate makefiles dude
-
+./modules.sh
 # 1. make arch-install-scripts (and install it)
 ./scripts/ais.sh
 # 2. make and install the rest of our utilities
