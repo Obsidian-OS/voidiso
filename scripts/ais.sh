@@ -4,6 +4,6 @@
 cd arch-install-scripts
 git pull
 make
-mkdir -p ../airootfs/usr/local/bin
-cp arch-chroot ../airootfs/local/bin/arch-chroot
+mkdir -p ../rootfs/usr/local/bin
+cp arch-chroot ../rootfs/local/bin/arch-chroot
 cd ..
