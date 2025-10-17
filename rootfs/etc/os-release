@@ -1,6 +1,6 @@
 NAME="ObsidianOS"
-PRETTY_NAME="Obsidian GNU/Linux"
-ID=obsidian
+PRETTY_NAME="Obsidian GNU/Linux Void Edition"
+ID=obsidianvoid
 BUILD_ID=rolling
 ANSI_COLOR=38;2;138;43;226
 HOME_URL="https://github.com/obsidian-os"
