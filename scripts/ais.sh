@@ -5,5 +5,5 @@ cd arch-install-scripts
 git pull
 make
 mkdir -p ../rootfs/usr/local/bin
-cp arch-chroot ../rootfs/local/bin/arch-chroot
+cp arch-chroot ../rootfs/usr/local/bin/arch-chroot
 cd ..
