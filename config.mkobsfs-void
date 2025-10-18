@@ -1,0 +1,4 @@
+ROOT_HAVEPASSWORD="nopassword"
+ADMIN_PASSWORD="user"
+ADMIN_USER="user"
+OUTPUT_SFS="../rootfs/etc/system.sfs"
