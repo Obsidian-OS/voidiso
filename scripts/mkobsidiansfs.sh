@@ -5,4 +5,5 @@ cd mkobsidiansfs
 mkdir -p ../rootfs/usr/local/bin/
 cp mkobsidiansfs-void ../rootfs/usr/local/bin/mkobsidiansfs # for obsidianctl auto-running it
 cp mkobsidiansfs-void ../rootfs/usr/local/bin/mkobsidiansfs-void
+./mkobsidiansfs-void ../config.mkobsfs-void
 cd ..
