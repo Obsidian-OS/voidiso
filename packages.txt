@@ -13,7 +13,6 @@ nano
 efibootmgr
 git
 gptfdisk
-fish
 bash
 zsh
 elogind
