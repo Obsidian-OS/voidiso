@@ -18,3 +18,4 @@ zsh
 elogind
 gpm
 dbus
+squashfs-tools
