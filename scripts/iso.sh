@@ -4,7 +4,7 @@
 
 cd upstream-iso
 ./mkiso.sh -- \
-  -e zsh \
+  -e /usr/bin/zsh \
   -T "ObsidianOS Void Edition" \
   -o ../latest.iso \
   -p "$(tr '\n' ' ' < ../packages.txt)" \
