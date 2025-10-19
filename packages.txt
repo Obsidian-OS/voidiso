@@ -19,3 +19,5 @@ elogind
 gpm
 dbus
 squashfs-tools
+parted
+
