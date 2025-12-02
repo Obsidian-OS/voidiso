@@ -11,7 +11,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0
+        fetch-depth: 0 
 
     - name: Set up Git
       run: |
@@ -25,7 +25,7 @@ jobs:
 
     - name: Git pull in specific directories (skip if not found)
       run: |
-        directories=("obsidianctl/" "mkobsidiansfs/" "upstream-iso/" "arch-install-scripts/")
+        directories=("obsidianctl/" "mkobsidiansfs/" "obsidian-wizard/" "upstream-iso/" "arch-install-scripts/")
         for dir in "${directories[@]}"; do
           if [ -d "$dir" ] && [ -d "$dir/.git" ]; then
             echo "Processing directory: $dir"
@@ -53,15 +53,5 @@ jobs:
       run: |
         git add .
         git commit -m "chore: bump"
-
-    - name: Create Pull Request
-      if: steps.check-changes.outputs.has_changes == 'true'
-      uses: peter-evans/create-pull-request@v5
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        commit-message: "chore: bump"
-        title: "Daily Auto Bump"
-        body: "Automated daily bump commit"
-        branch: "daily-bump"
-        base: "main"
-        delete-branch: true
+        git push
+   
